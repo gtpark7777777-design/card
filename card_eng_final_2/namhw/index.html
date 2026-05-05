@@ -1383,6 +1383,7 @@
       <div class="info-line bold">일산 전시장 | KCC 오토모빌</div>
       <div class="info-line">경기 고양시 일산동구 백마로 522 (10300)</div>
       <div class="info-line">031-932-9489 | 010-6484-8484</div>
+      <div class="info-line">FAX. 0504-212-8484</div>
       <div class="info-line">namhw@kcc.co.kr</div>
     </div>
   </div>
@@ -1822,6 +1823,7 @@
     address: '경기 고양시 일산동구 백마로 522',
     postalCode: '10300',
     office: '031-932-9489',
+    fax: '0504-212-8484',
     mobile: '010-6484-8484',
     email: 'namhw@kcc.co.kr',
     placeQuery: 'KCC오토모빌 일산 전시장'
@@ -1853,6 +1855,7 @@
       `TITLE:${CONTACT.title}`,
       `TEL;TYPE=CELL,VOICE:${CONTACT.mobile}`,
       `TEL;TYPE=WORK,VOICE:${CONTACT.office}`,
+      `TEL;TYPE=WORK,FAX:${CONTACT.fax}`,
       `EMAIL;TYPE=WORK:${CONTACT.email}`,
       `ADR;TYPE=WORK:;;${CONTACT.address};;;${CONTACT.postalCode};Korea`,
       `URL:${window.location.href}`,
